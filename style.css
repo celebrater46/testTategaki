@@ -8,7 +8,7 @@ body {
     background-color: black;
     color: silver;
     text-align: center;
-    font-family: Sawarabi Mincho, Sawarabi Gothic, Hiragino Kaku Gothic ProN W3, Helvetica, Meiryo, Tahoma;
+    font-family: 游明朝, Sawarabi Mincho, Sawarabi Gothic, Hiragino Kaku Gothic ProN W3, Helvetica, Meiryo, Tahoma;
 }
 
 div#box{
@@ -26,6 +26,16 @@ div.page{
     padding: 5vh 5vw;
     margin: 5vh 5vw;
     background-color: #333333;
+    writing-mode: vertical-rl;
+    /*text-orientation: mixed;*/
+}
+
+span.rotate{
+    display: inline-block;
+    /*text-combine-upright: all;*/
+    /*text-orientation: upright;*/
+    /*text-orientation: sideways;*/
+    transform:rotate(90deg);
 }
 
 p{
