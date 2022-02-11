@@ -1,6 +1,6 @@
 "use strict";
 
-const testLine = "「これは……テストでーす」";
+const testLine = "「これは……テストでーす――」";
 const div = document.getElementById("p-1");
 
 const rotateChar = (line) => {
