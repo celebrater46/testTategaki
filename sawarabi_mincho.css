@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+span.startBracket{
+    display: inline-block;
+    transform: translate(0.8em, 0.5em) rotate(90deg);
+}
+
+span.endBracket{
+    display: inline-block;
+    transform: translate(0.8em, 0.5em) rotate(90deg);
+}
+
+span.hyphen{
+    display: inline-block;
+    transform: translate(0.1em, 0.7em) rotate(90deg);
+}
+
+span.dash{
+    display: inline-block;
+    transform: translate(0.1em, 0.9em);
+}
+
+span.leader{
+    display: inline-block;
+    transform: translate(0.3em, 0.7em);
+}
